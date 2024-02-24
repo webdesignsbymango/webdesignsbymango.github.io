@@ -213,18 +213,33 @@
       <h2>Wir sind für Sie da!</h2>
       <p>Bitte zögern Sie nicht, uns eine Zeile zu schreiben.</p>
         </br>
-      <form action="#" method="post">
-        <label for="name"></label>
-        <input type="text" id="name" name="name" placeholder="Vor- und Nachname" required>
-    
-        <label for="email"></label>
-        <input type="email" id="email" name="email" placeholder="E-Mail-Adresse" required>
-    
-        <label for="message"></label>
-        <textarea id="message" name="message" placeholder="Deine Nachricht" rows="4" required></textarea>
-      
-        <button class="apple-button" type="submit">Senden</button>
-      </form>
+      <form id="fcf-form-id" class="fcf-form-class" method="post" action="form.php">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+            <label for="contact reason">Contact Reason</label>
+            <select id="contact reason" name="contact reason">
+                <option value="sales">Softwaredevelopment</option>
+                <option value="help">DevOps-Engineering</option>
+                <option value="billing">IT-Recruiting</option>
+                <option value="billing">IT-Support</option>
+            </select>
+		</br>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+        </div>
     </div>
 			</div>
 		</div>
