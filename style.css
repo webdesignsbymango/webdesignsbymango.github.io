@@ -5,13 +5,7 @@ body {
     font-family: 'Sofia Sans', sans-serif;
     box-sizing: border-box;
 }
-.abackyround {
-	
-    background-image: url(13323975_5215354.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center
-}
+
 .video-container {
     position: absolute;
   top: 50%;
