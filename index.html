@@ -213,36 +213,18 @@
       <h2>Wir sind für Sie da!</h2>
       <p>Bitte zögern Sie nicht, uns eine Zeile zu schreiben.</p>
         </br>
-      <form id="fcf-form-id" class="fcf-form-class" method="post" action="form.php">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-            <label for="contact reason">Contact Reason</label>
-            <select id="contact reason" name="contact reason">
-                <option value="sales">Softwaredevelopment</option>
-                <option value="help">DevOps-Engineering</option>
-                <option value="billing">IT-Recruiting</option>
-                <option value="billing">IT-Support</option>
-            </select>
-		</br></br>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" style="background-color: #5DADE2;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;">Send</button>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="subject">Subject:</label>
+        <input type="text" name="subject" id="subject">
+        <label for="message">Message:</label>
+        <textarea name="message" cols="30" rows="10">
+          
+        </textarea>
+      </form>
         </div>
     </div>
 			</div>
