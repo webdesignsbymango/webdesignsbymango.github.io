@@ -16,7 +16,7 @@ body {
   .video-container video {
     width: 100vw;
     object-fit: cover;
-    height: 103vh;
+    height: 100vh;
   }
 
 .endingcontacts {
