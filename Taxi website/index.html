@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap and Custom JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar custom-navbar fixed-top py-3">
+        <div class="container-fluid">
+            <a class="logo" href="#">TAXI</a>
+            <button class="btn menu-icon border-0 p-0" id="menuButton">&#9776;</button>
+        </div>
+    </nav>
+
+    <!-- Full-Screen Overlay -->
+    <div id="overlay" class="overlay">
+        <span class="close-btn" id="closeButton">&times;</span>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center">
+                <div class="col-12 col-md-10 col-lg-8">
+                    <div class="menu-links">
+                        <a href="#" data-text="Start">Start</a>
+                        <a href="#" data-text="Über uns">Über uns</a>
+                        <a href="#" data-text="Leistungen">Leistungen</a>
+                        <a href="#" data-text="Tarife">Tarife</a>
+                        <a href="#" data-text="Jobs">Jobs</a>
+                        <a href="#" data-text="Kontakt">Kontakt</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-info position-absolute bottom-0 end-0 m-5 p-4">
+                <p class="mb-2"><strong>WE ARE HERE</strong><br>Straße Name, Deutschland</p>
+                <p class="mb-0"><strong>Kontakt</strong><br>contact@taxideutschland.de<br>+49 123568975</p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+Version 1 of 3
